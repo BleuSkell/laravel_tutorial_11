@@ -5,11 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Posts extends Model
+class Employers extends Model
 {
     use HasFactory;
-
-    protected $table = 'posts';
-
-    protected $fillable = ['title', 'story'];
 }
